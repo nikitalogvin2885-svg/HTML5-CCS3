@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebFest 2026 — Фестиваль веб-технологий</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>WebFest 2026</h1>
+      <p class="header-date">15–16 июня 2026 • Москва</p>
+      <p class="header-desc">Крупнейший фестиваль веб-разработки и современных технологий</p>
+      <a href="#reg" class="btn btn-primary">Зарегистрироваться</a>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Навигация">
+    <div class="container">
+      <a href="#about">О событии</a>
+      <a href="#agenda">Программа</a>
+      <a href="#speakers">Спикеры</a>
+      <a href="#reg">Регистрация</a>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>О событии</h2>
+        <p>WebFest 2026 — это двухдневный фестиваль, посвящённый современным веб-технологиям, фронтенд и бэкенд разработке, дизайну интерфейсов и инновациям в области веба. Мероприятие объединяет профессионалов индустрии, начинающих разработчиков и всех, кто интересуется развитием веб-платформы.</p>
+        
+        <p>На фестивале вас ждут доклады от ведущих экспертов, практические воркшопы, нетворкинг-сессии и возможность обменяться опытом с коллегами. Мы обсудим последние тренды в HTML, CSS, JavaScript, фреймворках, инструментах разработки и многом другом.</p>
+        
+        <p>WebFest — это не просто конференция, это сообщество единомышленников, которые создают будущее веба.</p>
+        
+        <h3>Для кого это событие:</h3>
+        <ul class="audience-list">
+          <li>Frontend и backend разработчиков</li>
+          <li>UI/UX дизайнеров</li>
+          <li>Тимлидов и технических директоров</li>
+          <li>Студентов и начинающих специалистов</li>
+          <li>Всех, кто интересуется веб-технологиями</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="agenda" class="section section-alt">
+      <div class="container">
+        <h2>Программа</h2>
+        <div class="agenda-grid">
+          <div class="card">
+            <div class="card-time">10:00 – 11:30</div>
+            <h3>Открытие и keynote</h3>
+            <p>Приветственное слово организаторов и главный доклад о будущем веб-платформы</p>
+          </div>
+          
+          <div class="card">
+            <div class="card-time">12:00 – 13:30</div>
+            <h3>Современный CSS и дизайн-системы</h3>
+            <p>Погружение в CSS Grid, Container Queries, CSS-переменные и построение масштабируемых дизайн-систем</p>
+          </div>
+          
+          <div class="card">
+            <div class="card-time">14:00 – 15:30</div>
+            <h3>JavaScript: новые возможности</h3>
+            <p>Обзор последних фич ECMAScript, паттерны разработки и оптимизация производительности</p>
+          </div>
+          
+          <div class="card">
+            <div class="card-time">16:00 – 17:30</div>
+            <h3>Фреймворки и инструменты</h3>
+            <p>Сравнение React, Vue, Svelte. Обсуждение Vite, esbuild и современных сборщиков</p>
+          </div>
+          
+          <div class="card">
+            <div class="card-time">18:00 – 19:00</div>
+            <h3>Нетворкинг и закрытие</h3>
+            <p>Свободное общение, обмен контактами, подведение итогов первого дня</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="speakers" class="section">
+      <div class="container">
+        <h2>Спикеры</h2>
+        <div class="speakers-grid">
+          <div class="speaker-card">
+            <div class="speaker-photo"></div>
+            <h3>Анна Петрова</h3>
+            <p class="speaker-role">Senior Frontend Developer, Яндекс</p>
+            <p>Эксперт в области современного CSS и доступности. Автор популярных статей о веб-стандартах и производительности.</p>
+          </div>
+          
+          <div class="speaker-card">
+            <div class="speaker-photo"></div>
+            <h3>Дмитрий Соколов</h3>
+            <p class="speaker-role">Tech Lead, VK</p>
+            <p>Специалист по архитектуре фронтенд-приложений. Разрабатывает высоконагруженные веб-сервисы с миллионами пользователей.</p>
+          </div>
+          
+          <div class="speaker-card">
+            <div class="speaker-photo"></div>
+            <h3>Мария Иванова</h3>
+            <p class="speaker-role">UI/UX Designer, Тинькофф</p>
+            <p>Создатель дизайн-систем и адвокат пользовательского опыта. Помогает командам строить интуитивные интерфейсы.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reg" class="section section-alt">
+      <div class="container">
+        <h2>Регистрация</h2>
+        <form class="registration-form">
+          <div class="form-group">
+            <label for="name">Имя и фамилия</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="role">Ваша роль</label>
+            <select id="role" name="role" required>
+              <option value="">Выберите роль</option>
+              <option value="frontend">Frontend разработчик</option>
+              <option value="backend">Backend разработчик</option>
+              <option value="fullstack">Fullstack разработчик</option>
+              <option value="designer">UI/UX дизайнер</option>
+              <option value="lead">Тимлид/Менеджер</option>
+              <option value="student">Студент</option>
+              <option value="other">Другое</option>
+            </select>
+          </div>
+          
+          <div class="form-group checkbox-group">
+            <label>
+              <input type="checkbox" name="agreement" required>
+              <span>Я согласен с условиями участия и обработкой персональных данных</span>
+            </label>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 WebFest. Все права защищены.</p>
+      <p>Контакты: <a href="mailto:info@webfest.ru">info@webfest.ru</a> • Телефон: +7 (495) 123-45-67</p>
+    </div>
+  </footer>
+</body>
+</html>
