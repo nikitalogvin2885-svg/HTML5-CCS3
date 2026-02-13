@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Студенческий IT-клуб</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Студенческий IT-клуб</h1>
+      <p>Сообщество студентов, увлечённых технологиями и программированием</p>
+      <a href="#join" class="btn">Вступить в клуб</a>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <div class="container">
+      <a href="#about">О клубе</a>
+      <a href="#areas">Направления</a>
+      <a href="#join">Вступить</a>
+    </div>
+  </nav>
+
+  <main class="main">
+    <section id="about" class="panel">
+      <div class="container">
+        <h2>О клубе</h2>
+        <div class="two-col">
+          <div class="content">
+            <p>Студенческий IT-клуб — это место, где студенты могут развивать свои навыки в области информационных технологий, обмениваться опытом и работать над реальными проектами.</p>
+            <p>Мы организуем воркшопы, хакатоны, встречи с представителями IT-компаний и совместные проекты. Наша цель — помочь каждому участнику вырасти как специалисту и найти единомышленников.</p>
+            <p>Присоединяйтесь к нам, чтобы учиться, создавать и развиваться вместе с сообществом!</p>
+          </div>
+          <aside class="aside">
+            <h3>Наши достижения</h3>
+            <ul>
+              <li>Более 200 участников</li>
+              <li>15 реализованных проектов</li>
+              <li>Еженедельные встречи</li>
+              <li>Партнёрство с IT-компаниями</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="areas" class="panel">
+      <div class="container">
+        <h2>Направления</h2>
+        <div class="cards">
+          <article class="card">
+            <h3>Веб-разработка</h3>
+            <p>Изучение HTML, CSS, JavaScript и современных фреймворков для создания веб-приложений.</p>
+          </article>
+
+          <article class="card">
+            <h3>Мобильная разработка</h3>
+            <p>Разработка приложений для iOS и Android с использованием нативных и кроссплатформенных технологий.</p>
+          </article>
+
+          <article class="card">
+            <h3>Data Science</h3>
+            <p>Анализ данных, машинное обучение и работа с большими данными на Python.</p>
+          </article>
+
+          <article class="card">
+            <h3>Кибербезопасность</h3>
+            <p>Изучение методов защиты информации, тестирование на проникновение и безопасная разработка.</p>
+          </article>
+
+          <article class="card">
+            <h3>Геймдев</h3>
+            <p>Создание игр на Unity и Unreal Engine, разработка игровой механики и дизайна.</p>
+          </article>
+
+          <article class="card">
+            <h3>DevOps</h3>
+            <p>Автоматизация развёртывания, контейнеризация, CI/CD и облачные технологии.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="join" class="panel">
+      <div class="container">
+        <h2>Вступить в клуб</h2>
+        <form class="form">
+          <div class="form-group">
+            <label for="name">Имя и фамилия</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="role">Направление</label>
+            <select id="role" name="role" required>
+              <option value="">Выберите направление</option>
+              <option value="web">Веб-разработка</option>
+              <option value="mobile">Мобильная разработка</option>
+              <option value="data">Data Science</option>
+              <option value="security">Кибербезопасность</option>
+              <option value="gamedev">Геймдев</option>
+              <option value="devops">DevOps</option>
+            </select>
+          </div>
+
+          <div class="form-group checkbox-group">
+            <label>
+              <input type="checkbox" name="agreement" required>
+              <span>Я согласен с правилами клуба и обработкой персональных данных</span>
+            </label>
+          </div>
+
+          <button type="submit" class="btn">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 • Студенческий IT-клуб</p>
+    </div>
+  </footer>
+</body>
+</html>
